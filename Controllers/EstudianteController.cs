@@ -28,7 +28,7 @@ namespace calculadoramvc.Controllers
         public IActionResult Registrar(Estudiante objContacto){
             if (ModelState.IsValid)
             {
-                objContacto.Response = "Gracias estamos en contacto";
+                objContacto.Response = "Fue guardado  con  exito";
             }
             return View("index", objContacto);
         }
